@@ -1,0 +1,91 @@
+:root {
+  --pink-primary: #ffb6c1;
+  --pink-secondary: #ffc0cb;
+  --purple-accent: #e6e6fa;
+  --text-color: #4a4a4a;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #fff5f6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: var(--pink-primary);
+  padding: 1rem;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-bar button {
+  background-color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.nav-bar button:hover {
+  transform: translateY(-2px);
+  background-color: var(--purple-accent);
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+h1,
+h2 {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--pink-primary);
+  text-shadow: 2px 2px var(--shadow-color);
+}
+
+.cute-button {
+  background-color: var(--pink-secondary);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.cute-button:hover {
+  transform: translateY(-2px);
+  background-color: var(--pink-primary);
+}
+
+/* Adicionar ícones fofos */
+.icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
